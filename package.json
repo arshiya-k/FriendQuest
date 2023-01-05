@@ -1,0 +1,46 @@
+{
+  "name": "next",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@chakra-ui/icons": "^2.0.12",
+    "@chakra-ui/react": "^2.4.1",
+    "@choc-ui/chakra-autocomplete": "^5.1.4",
+    "@emotion/react": "^11.10.5",
+    "@emotion/styled": "^11.10.5",
+    "@googlemaps/react-wrapper": "^1.1.35",
+    "@next-auth/mongodb-adapter": "^1.1.1",
+    "@reach/combobox": "^0.18.0",
+    "@react-google-maps/api": "^2.17.0",
+    "body-parser": "^1.20.1",
+    "chakra-ui-autocomplete": "^1.4.5",
+    "chakra-ui-google-places-autocomplete": "^1.0.6",
+    "connect-ensure-login": "^0.1.1",
+    "eslint": "8.27.0",
+    "eslint-config-next": "13.0.2",
+    "express": "^4.18.2",
+    "express-session": "^1.17.3",
+    "framer-motion": "^6.5.1",
+    "mongodb": "^4.12.0",
+    "mongoose": "^6.7.2",
+    "next": "13.0.2",
+    "next-auth": "^4.17.0",
+    "nodemailer": "^6.8.0",
+    "passport": "^0.6.0",
+    "passport-local": "^1.0.0",
+    "passport-local-mongoose": "^7.1.2",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "react-icons": "^4.6.0",
+    "use-places-autocomplete": "^4.0.0"
+  },
+  "devDependencies": {
+    "eslint-config-prettier": "^8.5.0"
+  }
+}
